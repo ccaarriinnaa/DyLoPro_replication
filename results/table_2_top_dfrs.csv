@@ -1,0 +1,11 @@
+DFR number,DFR,DFR count
+1,"('Create Fine', 'Send Fine')",103392
+2,"('Send Fine', 'Insert Fine Notification')",79757
+3,"('Insert Fine Notification', 'Add penalty')",72334
+4,"('Add penalty', 'Send for Credit Collection')",57182
+5,"('Create Fine', 'Payment')",46952
+6,"('Add penalty', 'Payment')",18621
+7,"('Payment', 'Payment')",4306
+8,"('Payment', 'Add penalty')",3902
+9,"('Insert Fine Notification', 'Payment')",3891
+10,"('Insert Fine Notification', 'Insert Date Appeal to Prefecture')",3327

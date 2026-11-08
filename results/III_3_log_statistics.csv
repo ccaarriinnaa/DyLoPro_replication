@@ -1,0 +1,13 @@
+Statistic,BPIC17,BPIC19,RTFM (this notebook)
+Cases,"31,413 (Sect. 5)","251,470 (Sect. 5)","150,370"
+Events,"1,198,366 (Sect. 5)","1,587,925 (Sect. 5)","561,470"
+Activities,26 (nb §4.2),42 (nb §4.2),11
+Distinct variants,"> 15,000 (nb §1)",not reported,231
+Share of most frequent variant,3.4% (nb §1),25-30% weekly (Sect. 5),37.6%
+Mean events per case (NEPC),38.1 (derived),6.3 (Sect. 5),3.73
+Mean throughput time,not reported,~80 days before 2018-09 (Sect. 5),342 days
+Resources,148 (nb §4.1),628 (nb §4.1),147 (issuing officers)
+Time span,2016 (1 year),2018 (1 year),2000-01 to 2013-06
+Intervals at chosen p,~52 weekly,~52 weekly,162 monthly
+Cases per interval (median),~600 (derived),"~4,800 (derived)",722
+Outcome split,Canceled 47% / Accepted 41% / Refused 12% (nb §2.1),no outcome,Paid 45% / Credit Collection 39% / Unresolved 16%

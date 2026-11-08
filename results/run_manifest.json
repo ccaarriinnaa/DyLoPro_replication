@@ -1,0 +1,29 @@
+{
+  "run date": "2026-11-02 19:41",
+  "python": "3.11.14",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "processor": "AMD64 Family 25 Model 116 Stepping 1, AuthenticAMD",
+  "DyLoPro": "0.1.1",
+  "pandas": "2.2.2",
+  "numpy": "1.26.4",
+  "matplotlib": "3.10.8",
+  "pm4py": "2.7.23.10",
+  "data file": "Road_Traffic_Fine_Management_Process.xes.gz",
+  "data DOI": "https://doi.org/10.4121/uuid:270fd440-1057-4fb9-89a9-b699b47990f5",
+  "download date": "2026-10-26",
+  "data SHA-256": "dc9e0e65c964c8ce2a720687ecf17d8204a5cced5db2267c717ed39ada665da8",
+  "original code": {
+    "DyLoPro library (github.com/BrechtWts/DyLoPro)": "2d88d48db881af192c78b00fc12afec919a026d1 (2024-07-23); PyPI release 0.1.1",
+    "Case-study notebooks (github.com/BrechtWts/DyLoPro_CaseStudies)": "1b5fe667aab0aafae05a1fe86fc3ce78f0ea3b6b (2023-07-28)"
+  },
+  "parameters": {
+    "frequency": "monthly",
+    "time_unit": "days",
+    "case_assignment": "first_event",
+    "numeric_agg": "mean",
+    "max_k": 10,
+    "zoom_year": 2009,
+    "zoom_frequency": "weekly",
+    "robustness_cutoff": "2011-01-01"
+  }
+}

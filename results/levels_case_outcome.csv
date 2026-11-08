@@ -1,0 +1,4 @@
+case:outcome,cases,mean_TT_days,mean_NEPC,share_of_cases,Credit Collection,Paid,Unresolved
+Paid,67589,107.122,2.984,0.449,0.0,1.0,0.0
+Credit Collection,59013,690.769,5.058,0.392,1.0,0.0,0.0
+Unresolved,23768,141.889,2.577,0.158,0.0,0.0,1.0

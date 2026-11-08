@@ -1,0 +1,16 @@
+Item,Paper / original notebooks,Where,This replication
+Data,"BPIC17 (31,413 cases, 1,198,366 events) and BPIC19 (251,470 cases, 1,587,925 events)","Sect. 5, fn. 8-9","RTFM, https://doi.org/10.4121/uuid:270fd440-1057-4fb9-89a9-b699b47990f5, downloaded 2026-10-26, SHA-256 dc9e0e65c964c8ce..."
+Preprocessing,"BPIC17: 3 binary outcomes from last offer activity, invalid cases dropped; BPIC19: timestamps to UTC, 2 columns to object, start_date 01/01/2018",notebooks §0 + preprocess_case_studies.py,"Own preprocess_rtfm(): local-date timestamps, case features copied from Create Fine, 3 binary outcomes (I.5)"
+Log discretization p,weekly (default); some plots 2-weekly,"Sect. 4.1 (Def. 8, fn. 3); notebooks §0",monthly for 13.5-year log; weekly for 2009 zoom; quarterly for rare levels
+Case assignment,first event,Sect. 4.1 (Def. 9),first_event
+Log concepts / representation types,6 concepts x 5 types,"Sect. 4.2, Table 1",see III.1
+Aggregation Agg(X),mean (default),Sect. 4.2,mean
+Dimensions K,top-10 most frequent,Sect. 4.2; notebooks (max_k=10),top-10 (top-3 for vehicleClass)
+Outcome,binary; 3-class split one-vs-rest (Teinemaa et al.),"Sect. 4.2 ""Outcome"", Sect. 5","Paid / Credit Collection / Unresolved, one-vs-rest"
+Numerical event abstraction,"BPIC17: mean, max; BPIC19: last",Sect. 4.2; notebooks §5,"max, sum, last"
+Outlier handling (axis only),"xtr_outlier_rem: BPIC17 mostly True, BPIC19 mostly False",notebooks,True (default)
+Software,DyLoPro beta (pre-release),"notebooks, NOTE cell","DyLoPro 0.1.1, pandas 2.2.2, pm4py 2.7.23.10, Python 3.11.14"
+Hardware,not reported,-,"AMD64 Family 25 Model 116 Stepping 1, AuthenticAMD / Windows-10-10.0.26200-SP0"
+Code,DyLoPro + DyLoPro_CaseStudies repositories,"Sect. 5 fn. 7, Sect. 6",DyLoPro library (github.com/BrechtWts/DyLoPro): 2d88d48db881af192c78b00fc12afec919a026d1 (2024-07-23); PyPI release 0.1.1; Case-study notebooks (github.com/BrechtWts/DyLoPro_CaseStudies): 1b5fe667aab0aafae05a1fe86fc3ce78f0ea3b6b (2023-07-28)
+Runs / seeds,1 (deterministic),-,"1 (deterministic, no seeds needed)"
+Analysis method,"visual inspection, findings annotated in notebook markdown",Sect. 5; notebooks,"visual inspection + numeric check tables (level_summary, Section 0)"

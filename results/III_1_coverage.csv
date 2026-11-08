@@ -1,0 +1,8 @@
+Log concept (paper Table 1),BPIC17 notebook,BPIC19 notebook,This notebook (RTFM),Note
+Variants,"TT, OUT",TT,"TT, OUT","NEPC, DFRP: n/a (Table 1)"
+Directly-follows relations,- (skipped),"TT, NEPC, DFRP","TT, NEPC, DFRP, OUT",BPIC17 §0 skips DFRs because of lifecycle duplicates
+Categorical case features,"TT, NEPC, OUT","TT, NEPC","TT, NEPC, OUT",
+Numerical case features,"TT, NEPC, OUT",- (none in log),"TT, NEPC, OUT",
+Categorical event features,"TT, NEPC, OUT","TT, NEPC","TT, NEPC, OUT",
+Numerical event features,"TT, NEPC, OUT (mean, max)","TT, NEPC (last)","TT, NEPC, OUT (max, sum, last)",
+Outcome available?,"yes, 3 binary",no,"yes, 3 binary",

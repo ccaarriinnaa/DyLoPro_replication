@@ -1,0 +1,11 @@
+variant number,variant,variant count,share
+1,"('Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection')",56482,0.376
+2,"('Create Fine', 'Payment')",46371,0.308
+3,"('Create Fine', 'Send Fine')",20385,0.136
+4,"('Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Payment')",9520,0.063
+5,"('Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Payment', 'Payment')",3736,0.025
+6,"('Create Fine', 'Send Fine', 'Insert Fine Notification', 'Payment', 'Add penalty', 'Payment')",3301,0.022
+7,"('Create Fine', 'Send Fine', 'Payment')",3131,0.021
+8,"('Create Fine', 'Send Fine', 'Insert Fine Notification', 'Insert Date Appeal to Prefecture', 'Add penalty', 'Send Appeal to Prefecture')",2497,0.017
+9,"('Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Payment', 'Send for Credit Collection')",1515,0.01
+10,"('Create Fine', 'Send Fine', 'Insert Fine Notification', 'Payment', 'Add penalty', 'Send for Credit Collection')",522,0.003

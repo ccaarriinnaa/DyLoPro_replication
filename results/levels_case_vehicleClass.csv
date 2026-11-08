@@ -1,0 +1,5 @@
+case:vehicleClass,cases,mean_TT_days,mean_NEPC,share_of_cases,Credit Collection,Paid,Unresolved
+A,146712,340.101,3.721,0.976,0.389,0.452,0.158
+C,2456,396.009,4.213,0.016,0.519,0.345,0.136
+M,1198,422.453,4.392,0.008,0.497,0.338,0.164
+R,4,373.75,4.0,0.0,0.5,0.0,0.5

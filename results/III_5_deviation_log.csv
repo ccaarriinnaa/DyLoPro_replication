@@ -1,0 +1,15 @@
+,Paper / authors say,We did,Why,Expected impact
+1,Case studies on BPIC17 and BPIC19 (Sect. 5),RTFM log,"Assignment: replicate on a different log; RTFM is the authors' own announced but unpublished case study (README ""COMING SOON"")",Tests generalisability (external validity); no number-to-number comparison with the paper possible
+2,"Weekly intervals (default; nb §0); p must give populated sublogs (Sect. 4.1, fn. 3)",monthly for the full log; weekly for 2009 only (Sect. 7),13.5-year log would give ~700 weekly points,Effects shorter than a month are hidden in Sections 0-6; Section 7 shows them for one year
+3,"Authors' preprocess_RTFM(): timestamps used as stored, in UTC",Converted to the Italian calendar date,Dates are stored as local midnight (22:00/23:00 UTC),Authors' version puts 3.1% of fines in the wrong month and 13.0% in the wrong week
+4,"Authors' preprocess_RTFM(): 'article' and 'points' cast to object (categorical), left on the Create Fine event","Copied to all events as case features: 'case:article' categorical, 'case:points' numerical",Both describe the fine and are recorded once; points is a count,Points plotted as a mean instead of per-level fractions
+5,"Authors' preprocess_RTFM(): no outcome defined. BPIC17: outcome from last offer activity, invalid cases dropped (preprocess_bpic17)","3 classes (Credit Collection / Paid / Unresolved) from activity presence, no cases dropped",RTFM has no outcome attribute; credit collection is the label used in the literature (Teinemaa et al.),'Unresolved' mixes still-running and dismissed fines; affected by the end-of-log bias
+6,"Authors' preprocess_RTFM() keeps 'notificationType', 'totalPaymentAmount'",'notificationType' not analysed; 'totalPaymentAmount' used with 'last',notificationType is 99.8% one value,None
+7,"BPIC17 skips DFRs (lifecycle duplicates, nb §0)",DFR section included (Sect. 2),"All RTFM events are ""complete""",More control-flow coverage than BPIC17
+8,"DFR outcome representation: in Table 1, used in neither notebook",Used (Sect. 2.4),Outcome available; completes the coverage,None
+9,distinct_variants_evol (library),distinct_variants_AdvancedEvol (Sect. 0.4),Deprecated from 0.1.1 (HISTORY.md),None
+10,select_time_range() / start_date for sub-periods (BPIC19 uses start_date),"Own filter on the first-event date (Sect. 7, 8)",select_time_range() rejects valid ranges in 0.1.1; start_date/end_date keep only cases that also END within the range,Our subsets keep long-running cases that end after the cut-off
+11,"xtr_outlier_rem mostly False in BPIC19, mostly True in BPIC17",True (default),Only rescales the y-axis,None on the data; occasional extreme points are clipped from view
+12,"DyLoPro beta version, other versions not reported","DyLoPro 0.1.1, pandas 2.2.2, Python 3.11.14",Beta not available; pandas 3 breaks DyLoPro 0.1.1,None expected; all plot types ran
+13,Findings from visual inspection only,"Visual inspection plus numeric check tables (level_summary, Section 0)",Reduce subjectivity of reading plots,Higher reliability of our claims
+14,"Single run, no seeds reported","Single run, no seeds",DyLoPro is deterministic,None

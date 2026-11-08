@@ -14,15 +14,15 @@ pip install DyLoPro pm4py "pandas>=2.0,<3.0" notebook
 
 Our environment:
 
-| Item | Version |
-|---|---|
-| Python | 3.14.7 |
-| DyLoPro | 0.1.1 |
-| pandas | 2.3.3 |
-| numpy | 2.5.3 |
-| matplotlib | 3.11.2 |
-| pm4py | 2.7.23.10 |
-| Hardware | Windows 11 laptop, AMD processor (AMD64 Family 25 Model 116) |
+| Item | Version (RFTM) | Version (Sepsis) | 
+|---|---|---|
+| Python | 3.11.14 | 3.14.7 | 
+| DyLoPro | 0.1.1 | 0.1.1 | 
+| pandas | 2.2.2 | 2.3.3 |
+| numpy | 1.26.4 | 2.5.3 |
+| matplotlib | 3.10.8 | 3.11.2 |
+| pm4py | 2.7.23.10 | 2.7.23.10 |
+| Hardware | Windows 11 laptop, AMD processor (AMD64 Family 25 Model 116) | Windows 11 laptop, AMD processor (AMD64 Family 25 Model 116) |
 
 ## __2. Case studies__
 

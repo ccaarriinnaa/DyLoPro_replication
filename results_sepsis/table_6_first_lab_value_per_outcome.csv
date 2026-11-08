@@ -1,0 +1,5 @@
+,case admitted IC,Leucocytes,CRP,LacticAcid
+case admitted IC,0,13.82,104.74,1.95
+case admitted IC,1,14.98,147.71,2.92
+case returned ER,0,13.06,114.49,2.07
+case returned ER,1,16.13,98.65,2.08

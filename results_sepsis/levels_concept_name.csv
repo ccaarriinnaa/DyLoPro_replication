@@ -1,0 +1,11 @@
+concept:name,cases,share_of_cases,mean_TT_days,mean_NEPC,case admitted IC,case returned ER,case admitted IC (without),case returned ER (without)
+ER Registration,1050,1.0,28.469,14.49,0.105,0.28,,
+ER Triage,1050,1.0,28.469,14.49,0.105,0.28,,
+ER Sepsis Triage,1049,0.999,28.476,14.475,0.104,0.279,1.0,1.0
+Leucocytes,1012,0.964,29.521,14.912,0.109,0.29,0.0,0.026
+CRP,1007,0.959,29.543,14.959,0.109,0.291,0.0,0.023
+LacticAcid,860,0.819,32.166,16.003,0.126,0.32,0.011,0.1
+IV Antibiotics,823,0.784,32.251,16.188,0.122,0.32,0.044,0.137
+Admission NC,800,0.762,37.277,16.794,0.125,0.368,0.04,0.0
+IV Liquid,753,0.717,32.715,16.333,0.122,0.323,0.061,0.172
+Release A,671,0.639,40.909,16.431,0.128,0.413,0.063,0.045

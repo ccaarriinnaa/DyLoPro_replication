@@ -1,0 +1,29 @@
+{
+  "run date": "2026-11-08 02:21",
+  "python": "3.14.7",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "processor": "Intel64 Family 6 Model 141 Stepping 1, GenuineIntel",
+  "DyLoPro": "0.1.1",
+  "pandas": "2.3.3",
+  "numpy": "2.5.3",
+  "matplotlib": "3.11.2",
+  "pm4py": "2.7.23.10",
+  "data file": "Sepsis Cases - Event Log.xes\\Sepsis Cases - Event Log.xes",
+  "data DOI": "https://doi.org/10.4121/uuid:915d2bfb-7e84-49ad-a286-dc35f063a460",
+  "download date": "2026-10-14",
+  "data SHA-256": "b501d2063678b9471e3cb1be04d961f924ae5be6ecc8154701bb57a24c7ae0ab",
+  "original code": {
+    "DyLoPro library (github.com/BrechtWts/DyLoPro)": "2d88d48db881af192c78b00fc12afec919a026d1 (2024-07-23); PyPI release 0.1.1",
+    "Case-study notebooks (github.com/BrechtWts/DyLoPro_CaseStudies)": "1b5fe667aab0aafae05a1fe86fc3ce78f0ea3b6b (2023-07-28)"
+  },
+  "parameters": {
+    "time_unit": "days",
+    "frequency": "monthly",
+    "case_assignment": "first_event",
+    "numeric_agg": "mean",
+    "max_k": 10,
+    "xtr_outlier_rem": true
+  },
+  "runs": 1,
+  "seeds": "none (DyLoPro is deterministic)"
+}

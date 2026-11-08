@@ -1,0 +1,11 @@
+DFR number,DFR,fraction cases,occurrences per case (with),median performance (days),NEPC with,NEPC without,IC with,IC without
+1,"('Leucocytes', 'CRP')",0.722,2.346,0.0,16.781,8.541,0.139,0.017
+2,"('CRP', 'Leucocytes')",0.616,2.233,0.0,17.626,9.454,0.148,0.035
+3,"('ER Registration', 'ER Triage')",0.925,1.0,0.005,14.447,15.013,0.103,0.127
+4,"('ER Triage', 'ER Sepsis Triage')",0.862,1.0,0.0,14.507,14.379,0.106,0.097
+5,"('CRP', 'LacticAcid')",0.397,1.508,0.0,18.206,12.041,0.213,0.033
+6,"('LacticAcid', 'Leucocytes')",0.349,1.544,0.0,19.249,11.943,0.254,0.025
+7,"('IV Liquid', 'IV Antibiotics')",0.477,1.0,0.0,16.05,13.066,0.124,0.087
+8,"('IV Antibiotics', 'Admission NC')",0.466,1.0,0.004,16.885,12.401,0.053,0.15
+9,"('Leucocytes', 'Leucocytes')",0.207,2.111,1.0,25.147,11.713,0.258,0.065
+10,"('Leucocytes', 'LacticAcid')",0.297,1.394,0.0,19.583,12.336,0.266,0.037

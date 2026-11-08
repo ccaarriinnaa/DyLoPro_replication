@@ -1,0 +1,11 @@
+variant number,variant,variant count,share
+1,"('ER Registration', 'ER Triage', 'ER Sepsis Triage')",35,0.033
+2,"('ER Registration', 'ER Triage', 'ER Sepsis Triage', 'Leucocytes', 'CRP')",24,0.023
+3,"('ER Registration', 'ER Triage', 'ER Sepsis Triage', 'CRP', 'Leucocytes')",22,0.021
+4,"('ER Registration', 'ER Triage', 'ER Sepsis Triage', 'CRP', 'LacticAcid', 'Leucocytes', 'IV Liquid', 'IV Antibiotics')",13,0.012
+5,"('ER Registration', 'ER Triage', 'ER Sepsis Triage', 'Leucocytes', 'CRP', 'LacticAcid')",11,0.01
+6,"('ER Registration', 'ER Triage', 'ER Sepsis Triage', 'Leucocytes', 'CRP', 'LacticAcid', 'IV Liquid', 'IV Antibiotics')",9,0.009
+7,"('ER Registration', 'ER Triage', 'ER Sepsis Triage', 'Leucocytes', 'LacticAcid', 'CRP', 'IV Liquid', 'IV Antibiotics')",7,0.007
+8,"('ER Registration', 'ER Triage', 'ER Sepsis Triage', 'Leucocytes', 'CRP', 'Admission NC', 'Release A')",5,0.005
+9,"('ER Registration', 'ER Triage', 'ER Sepsis Triage', 'CRP', 'Leucocytes', 'LacticAcid', 'IV Liquid', 'IV Antibiotics')",5,0.005
+10,"('ER Registration', 'ER Triage', 'CRP', 'Leucocytes', 'ER Sepsis Triage')",5,0.005

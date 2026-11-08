@@ -1,0 +1,7 @@
+case:release type,cases,share_of_cases,mean_TT_days,mean_NEPC,case admitted IC,case returned ER,case admitted IC (without),case returned ER (without)
+Release A,671,0.639,40.909,16.431,0.128,0.413,0.063,0.045
+No release,268,0.255,0.138,6.687,0.011,0.0,0.137,0.376
+Release B,56,0.053,7.055,19.143,0.232,0.0,0.098,0.296
+Release C,25,0.024,34.147,24.04,0.04,0.24,0.106,0.281
+Release D,24,0.023,38.879,24.333,0.208,0.417,0.102,0.277
+Release E,6,0.006,37.316,23.333,0.333,0.167,0.103,0.281
